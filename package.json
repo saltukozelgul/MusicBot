@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-custom-version",
+  "version": "1.0.0",
+  "description": "Steps:",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "forever start .",
+    "devMode": "nodemon --config nodemon.json .",
+    "foreverStop": "forever stop 0",
+    "foreverList": "forever list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.1",
+    "@discordjs/opus": "^0.6.0",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "@discordjs/voice": "^0.6.0",
+    "@koenie06/discord.js-music": "^1.2.9",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0",
+    "express": "^4.17.1",
+    "forever": "^4.0.1",
+    "nodemon": "^2.0.14",
+    "yt-search": "^2.10.2"
+  },
+  "devDependencies": {
+    "node": "^16.6.1"
+  }
+}
