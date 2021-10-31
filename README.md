@@ -10,7 +10,7 @@ A discord bot with button features and music player.
 - Type `/play` or `/musicplayer` to start using the bot.
 
 > ## Requirements
-
+-  Node 16.6 or higher.
 - `discord.js, @discordjs/builders, @discordjs/opus, @discordjs/rest, @discordjs/voice` for foundation of bot.
 - `@koenie06/discord.js-music` for simple music commands.
 - `yt-search` for youtube searching
